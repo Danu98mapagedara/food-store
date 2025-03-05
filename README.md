@@ -1,1 +1,35 @@
-TThis project is a simple and interactive **shopping cart system** built using **Next.js**, **React**, and **Framer Motion** for smooth animations. The application allows users to add items to their cart, view the total discount price dynamically, and experience fluid UI transitions. The design is crafted with **Tailwind CSS**, ensuring a modern and responsive layout. The cart system efficiently manages items, displaying them in a structured format while calculating the total price automatically. The project includes essential components like `CartItems.js` for cart management and pages such as `index.js` for the homepage. Additionally, **Framer Motion** is integrated to enhance user experience with smooth animations for cart interactions and button effects. To set up the project, clone the repository, install dependencies using `npm install`, and start the development server with `npm run dev`. This project follows the **MIT license**, making it open for use and modifications.](https://nextjs.org/docs) - learn about Next.js features and API.
+Shopping Cart System
+
+This is a simple and interactive shopping cart system built using Next.js, React, and Framer Motion for smooth animations. The project provides a dynamic and engaging shopping experience with seamless UI transitions and real-time cart updates.
+
+Features
+ Add & View Cart Items – Users can add items to the cart and view them with their respective discount prices.
+ Total Discount Calculation – Automatically calculates the total discounted price of all cart items.
+ Modern UI with Tailwind CSS – A responsive and visually appealing layout.
+ Smooth Animations with Framer Motion – Enhances user experience with animated interactions.
+ Fast & Optimized with Next.js – Ensures high performance and seamless navigation.
+
+Technologies Used
+
+Next.js – React framework for fast rendering and routing.
+
+React.js – Component-based UI development.
+
+Framer Motion – Smooth animations for UI interactions.
+
+Tailwind CSS – Utility-first styling for a modern and clean design.
+
+Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/Danu98mapagedara/shopping-cart-system.git
+cd shopping-cart-system
+
+Install dependencies:
+npm install
+
+Run the development server:
+npm run dev
+
+Open http://localhost:3000 in your browser to view the application.
