@@ -5,7 +5,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-between mb-8">
             {/* Logo Section */}
             <div className="w-full md:w-1/3 mb-4 md:mb-0">
-              <h2 className="text-3xl font-bold text-white">MyEcommerce</h2>
+              <h2 className="text-3xl font-bold text-white">FoodieNest</h2>
               <p className="text-gray-400 mt-2">
                 Your one-stop shop for everything! We strive to bring you the best products and services.
               </p>

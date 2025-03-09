@@ -53,16 +53,16 @@ export default function ProductsPage() {
       </div>
 
       {/* Flex Layout for Products & Cart */}
-      <div className="flex gap-4">
-        {/* Product List */}
-        <div className="w-[80%] grid grid-cols-3 gap-6">
+      <div className="flex gap-2">
+        <div className="sm:w-[75%] lg:w-[80%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {getProducts().map((product) => (
             <ProductCard key={product.id} product={product} addToCart={addToCart} />
           ))}
         </div>
-
-        {/* Cart Items */}
+        <div className="sm:w-[25%] lg:w-[20%]  bg-gray-100 p-4 rounded-lg shadow-lg align-center sm:[vh50%] lg:[vh100%]">
         <CartItems cart={cart} />
+        </div>
+        
       </div>
     </div>
   );

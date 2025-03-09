@@ -9,7 +9,7 @@ const handleCheckout = () => {
 };
 
     return (
-      <div className="w-[20%] bg-gray-100 p-4 rounded-lg shadow-lg">
+      <div className="sm:text-emerald-600 md:text-red  lg:text-black"> 
         <h2 className="text-xl font-bold mb-4">Cart Items</h2>
         {cart.length === 0 ? (
           <p className="text-gray-500">Your cart is empty.</p>
@@ -18,7 +18,7 @@ const handleCheckout = () => {
             {cart.map((item, index) => (
               <li key={index} className="border-b py-2 flex justify-between">
                 <span>{item.name}</span>
-                <span className="text-green-600 font-bold">${item.discountPrice}</span>
+                <span className="">${item.discountPrice}</span>
               </li>
             ))}
           </ul>
