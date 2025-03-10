@@ -2,12 +2,14 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X ,Moon, Sun} from "lucide-react";
+import { useTheme } from "../context/ThemeProvider";
 
  
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState();
-
+  const { theme, toggleTheme } = useTheme();
+  
   return (
     <nav className="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 shadow-lg p-4 ">
       <div className="container mx-auto flex justify-between items-center">
@@ -31,6 +33,13 @@ export default function Navbar() {
           >
             Contact Us
           </a>
+
+          <button
+          className="text-white ml-4 focus:outline-none"
+          onClick={toggleTheme}
+        >
+          {theme === "light" ? <Moon size={24} /> : <Sun size={24} />}
+        </button>
         </div>
 
         {/* Mobile Menu Button */}
